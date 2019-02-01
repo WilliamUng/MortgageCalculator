@@ -115,7 +115,8 @@
                         android:layout_height="50dp"
                         android:layout_alignParentRight="true"
                         android:layout_gravity="bottom"
-                        android:background="@drawable/help" />
+                        android:background="@drawable/help"
+                        android:onClick="Help" />
 
                 </RelativeLayout>
 
