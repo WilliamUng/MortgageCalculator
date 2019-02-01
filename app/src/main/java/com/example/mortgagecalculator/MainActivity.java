@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         spinnerArray.add("11 years");
         spinnerArray.add("12 years");
         spinnerArray.add("13 years");
+        spinnerArray.add("14 years");
+        spinnerArray.add("15 years");
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_spinner_item, spinnerArray);
@@ -62,5 +64,10 @@ public class MainActivity extends AppCompatActivity {
         summary.putExtra("period", period);
 
         startActivity(summary);
+    }
+
+    public void Help (View v) {
+        Intent details = new Intent (this, Details.class);
+        startActivity(details);
     }
 }
