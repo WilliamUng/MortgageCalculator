@@ -47,9 +47,9 @@ public class SummaryPage extends AppCompatActivity{
         sItems.setAdapter(adapter);
 
         List<String> spinnerFreq = new ArrayList<String>();
+        spinnerFreq.add("Monthly");
         spinnerFreq.add("Bi-weekly");
         spinnerFreq.add("Weekly");
-        spinnerFreq.add("Monthly");
 
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(
                 this, android.R.layout.simple_spinner_item, spinnerFreq);

@@ -24,21 +24,11 @@ public class MainActivity extends AppCompatActivity {
         //et1.setHintTextColor(Color.WHITE);
 
         List<String> spinnerArray = spinnerArray = new ArrayList<String>();
-        spinnerArray.add("1 year");
-        spinnerArray.add("2 years");
-        spinnerArray.add("3 years");
-        spinnerArray.add("4 years");
-        spinnerArray.add("5 years");
-        spinnerArray.add("6 years");
-        spinnerArray.add("7 years");
-        spinnerArray.add("8 years");
-        spinnerArray.add("9 years");
-        spinnerArray.add("10 years");
-        spinnerArray.add("11 years");
-        spinnerArray.add("12 years");
-        spinnerArray.add("13 years");
-        spinnerArray.add("14 years");
-        spinnerArray.add("15 years");
+
+        for (int i = 1; i <= 30; i++)
+        {
+            spinnerArray.add(i+" years");
+        }
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_spinner_item, spinnerArray);
