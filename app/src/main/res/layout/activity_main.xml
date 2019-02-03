@@ -29,7 +29,7 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="60dp"
+                    android:layout_marginTop="40dp"
                     android:layout_marginBottom="40dp"
                     android:gravity="bottom"
                     android:text="Welcome"
@@ -99,12 +99,13 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="50dp">
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="10dp">
 
                     <Button
                         android:id="@+id/button"
                         android:layout_width="150dp"
-                        android:layout_height="50dp"
+                        android:layout_height="55dp"
                         android:height="50dp"
                         android:onClick="SummaryPage"
                         android:text="Calculate" />
